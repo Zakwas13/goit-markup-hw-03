@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -14,6 +13,7 @@ body {
 
 .header {
     background-color: #FFFFFF;
+
 }
 
 .nav-inne {
@@ -81,6 +81,7 @@ body {
     color: #2196F3
 }
 
+
 .button {
 
     font-weight: 500;
@@ -91,6 +92,9 @@ body {
     letter-spacing: 0.03em;
     cursor: pointer;
 
+    padding: 6px 22px 6px 22px;
+    border-radius: 4px;
+    border: none;
 }
 
 .button:hover {
@@ -119,6 +123,7 @@ body {
 
 .div-pordfolio {
     background: #FFFFFF;
+
 
 }
 
@@ -175,6 +180,8 @@ body {
 
 .div-background {
     background: #2F303A;
+
+    align-content: center;
 }
 
 .h1-title {
@@ -188,6 +195,11 @@ body {
     color: #FFFFFF;
 }
 
+.h1-position {
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
 .solo-button {
     font-weight: 700;
     font-size: 16px;
@@ -199,7 +211,17 @@ body {
 
     color: #FFFFFF;
     background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
 
+    padding: 10px 41px 10px 42px;
+}
+
+.solo-button-position {
+
+
+    padding-bottom: 200px;
 }
 
 .solo-button:focus {
@@ -212,6 +234,7 @@ body {
     font-size: 16px;
     line-height: 1, 875;
     letter-spacing: 0.03em;
+
 }
 
 .p-index-title {
@@ -222,6 +245,8 @@ body {
     text-transform: uppercase;
 
     color: #212121;
+
+
 }
 
 .h2-title {
@@ -232,7 +257,10 @@ body {
     letter-spacing: 0.03em;
 
     color: #212121;
+
+
 }
+
 
 .p-work {
     font-size: 16px;
@@ -240,6 +268,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-bottom: 30px;
 
 }
 
@@ -251,6 +280,8 @@ body {
     letter-spacing: 0.03em;
 
     color: #212121;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
 
 .blue {
@@ -258,5 +289,169 @@ body {
 }
 
 .ul {
-    list-style: none;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+
+
+
+
+
+
+
+
+
+
+.containery {
+    width: 1200px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.section:last-child {
+    padding-bottom: 94px;
+}
+
+.border-line-bottom {
+    border-bottom: 1px solid #ECECEC;
+
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+}
+
+.margin-right {
+    margin-right: 8px;
+}
+
+.article-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 30px;
+    padding-top: 50px;
+
+
+
+
+}
+
+.article-border {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    display: block;
+
+}
+
+.no-gap {
+    display: block;
+}
+
+.article-pading {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.article-pading-title {
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+.article-pading-p {
+    padding-top: 4px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.header-positions {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-pading {
+    padding-top: 24px;
+    padding-right: 93px;
+    padding-bottom: 25px;
+
+}
+
+.nav-pading-1 {
+    padding-right: 46px;
+}
+
+.nav-pading-2 {
+    padding-right: 364px;
+}
+
+.nav-pading-3 {
+    padding-right: 50px;
+}
+
+.logo-pading-footer {
+    padding: 60px 0px 20px 0px;
+}
+
+.address-footer {
+
+    padding-bottom: 60px;
+
+
+}
+
+.li-padding {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+
+.article-position {
+    display: flex;
+    gap: 30px;
+
+}
+
+
+
+
+h4 {
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding-bottom: 50px;
+}
+
+
+
+
+.taem-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+
+}
+
+.team-card {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.team-background {
+    background: #F5F4FA;
 }
