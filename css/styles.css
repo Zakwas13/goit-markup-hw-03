@@ -219,8 +219,6 @@ body {
 }
 
 .solo-button-position {
-
-
     padding-bottom: 200px;
 }
 
@@ -234,7 +232,6 @@ body {
     font-size: 16px;
     line-height: 1, 875;
     letter-spacing: 0.03em;
-
 }
 
 .p-index-title {
@@ -243,10 +240,7 @@ body {
     line-height: 1, 454545;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #212121;
-
-
 }
 
 .h2-title {
@@ -255,10 +249,7 @@ body {
     line-height: 1, 6666666;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
-
-
 }
 
 
