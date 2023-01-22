@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    padding: 0px
 }
 
 body {
@@ -129,7 +130,7 @@ body {
 
 .footer {
     background: #2F303A;
-    ;
+    padding: 2em
 }
 
 .footer-adres {
@@ -179,9 +180,10 @@ body {
 }
 
 .div-background {
-    background: #2F303A;
 
-    align-content: center;
+    background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .h1-title {
@@ -191,12 +193,10 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
 .h1-position {
-    padding-top: 200px;
     padding-bottom: 30px;
 }
 
@@ -204,9 +204,8 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1, 875;
+
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
 
     color: #FFFFFF;
@@ -218,9 +217,7 @@ body {
     padding: 10px 41px 10px 42px;
 }
 
-.solo-button-position {
-    padding-bottom: 200px;
-}
+
 
 .solo-button:focus {
     color:
@@ -296,15 +293,19 @@ body {
 
 .containery {
     width: 1200px;
+    margin: auto;
+    max-width: 1600px;
+}
+
+.section-first-child {
+    padding-top: 94px;
+    padding-bottom: 0px;
+
+
 }
 
 .section {
     padding-top: 94px;
-    padding-bottom: 94px;
-
-}
-
-.section:last-child {
     padding-bottom: 94px;
 }
 
@@ -313,14 +314,14 @@ body {
 
 }
 
-.button-box {
-    display: flex;
-    justify-content: center;
-}
+
 
 .margin-right {
     margin-right: 8px;
+
 }
+
+
 
 .article-flex {
     display: flex;
@@ -328,9 +329,6 @@ body {
 
     gap: 30px;
     padding-top: 50px;
-
-
-
 
 }
 
@@ -366,7 +364,7 @@ body {
 
 
 .header-positions {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -445,4 +443,20 @@ h2 {
 
 .team-background {
     background: #F5F4FA;
+}
+
+
+
+
+
+
+.button-box {
+    margin: auto;
+
+}
+
+.button-crate {
+    display: flex;
+    justify-content: center;
+
 }
